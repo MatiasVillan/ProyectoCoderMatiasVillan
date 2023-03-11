@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Hongos Z - Resto </title>
+        <!-- Favicon temporal -->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <!-- Linkeo de hoja de estilo -->
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header class="header_sticky">
+            <!-- Sección de cabecera con navegación. -->
+            <div>
+                <!-- Imagen del logo con hipervínculo al inicio. -->
+                <a href="../index.html">
+                    <img class="logo" src="../assets/img/logo_temporal.png" alt="Logo de Hongos Z.">
+                </a>
+            </div>                
+            <div> 
+                <nav>
+                    <!-- Lista desordenada de enlaces. -->
+                    <ul class="lista_navegacion_header">
+                        <li class="lista_item_navegacion boton_comun">
+                            <a class="link_navegacion" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="lista_item_navegacion boton_comun">
+                            <a class="link_navegacion" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="lista_item_navegacion boton_seleccionado">
+                            <a class="link_navegacion" href="#">Resto</a>
+                        </li>
+                        <li class="lista_item_navegacion boton_comun">
+                            <a class="link_navegacion" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="lista_item_navegacion boton_comun">
+                            <a class="link_navegacion" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Inicio contenido principal de Resto -->
+        <main>
+            <!-- Título principal con una imágen del restaurant -->
+            <section>
+                <h1> Nuestro Restaurant </h1>
+                <img src="../assets/img/restaurant.jpg" alt="Salón principal del restaurant">
+            </section>
+
+            <!-- Link con una imagen para descargar el menú del restaurant del google drive. -->
+            <section>
+                <h2>Nuestro menú</h2>
+                <div>
+                    <a href="https://drive.google.com/" target="_blank">
+                        <img src="../assets/img/menu_restaurant.avif" alt="Nuestro Menú">
+                        <p>Puedes descargarlo haciendo click en aquí o en la imágen.</p>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Mapa interactivo con la ubicación del restaurant -->
+            <section>
+                <h2>Encontranos aquí:</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1226574676575!2d-58.38534108511303!3d-34.601059764863805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac627f1a189%3A0xb875c10e7634945d!2sTeatro%20Col%C3%B3n%2C%20Cerrito%20628%2C%20C1010AAN%20CABA!5e0!3m2!1sen!2sar!4v1677286332317!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+            <!-- Formulario para reservas, debes elegir fecha y hora obligatoriamente -->
+            <section>
+                <h2>Reservá tu lugar</h2>
+                <form action="">
+                    <div>
+                        <input type="email" placeholder="Ingrese su email." required>
+                    </div>
+                    <div>
+                        <input name="" type="date" required>
+                    </div>
+                    <div>
+                        <input name="" type="time" required>
+                    </div>
+                    <input type="submit" value="Enviar reserva">
+                    <input type="reset" value="Eliminar reserva">
+                </form>
+
+            </section>
+        </main>
+        <!-- Fin contenido principal de Resto -->
+
+        <!-- Contenido al pie. -->
+        <footer class="footer">
+            <!-- Enlaces absolutos a Redes sociales que se abren en una pestaña nueva.-->
+            <div>
+                <p class="texto_footer">Todos los derechos reservados.</p>
+            </div>
+            <div class="texto_footer">
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a href="https://es-la.facebook.com/" target="_blank">Facebook</a>
+                <a href="https://www.reddit.com/" target="_blank">Reddit</a>
+            </div>
+        </footer>        
+    </body>
+</html>
