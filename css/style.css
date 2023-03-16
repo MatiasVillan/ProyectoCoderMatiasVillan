@@ -15,7 +15,8 @@ Se importa una fuente para utilizar en los estilos */
     font-family: 'Source Sans Pro', sans-serif;    
 }
 
-/* Estilado del header para que esté fijo en la página. */
+/* Estilado del header para que esté fijo en la página.  */
+
 
 .header_sticky{
     display: inline-block;
@@ -132,4 +133,8 @@ Se importa una fuente para utilizar en los estilos */
 
 .texto_footer{
     text-align: center;
+}
+
+.black_icon{
+    color: black;
 }
