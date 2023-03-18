@@ -13,100 +13,129 @@
         <script src="https://kit.fontawesome.com/157117e04a.js" crossorigin="anonymous"></script>
     </head>
     <body>
-
         <!-- Sección encabezado de página y navegación -->
-         <header class="container-fluid sticky-top mb-3 color_principal">
+        <header class="container-fluid sticky-top mb-3 color_principal">
             <div class="d-flex justify-content-between">
-              <a class="navbar-brand" href="../index.html">
-                  <img class="logo" src="../assets/img/logo_temporal.png" alt="Logo de Hongos Z.">
-              </a>
-              <nav class="nav">
-                  <ul class="row list-unstyled d-flex justify-content-end align-items-end">
-                      <li class="col p-0 m-1">
-                          <a class="link_navegacion boton_comun p-1 rounded-3 shadow-lg" href="../index.html">Inicio</a>
-                      </li>
-                      <li class="col p-0 m-1">
-                          <a class="link_navegacion boton_seleccionado p-1 rounded-3 shadow-lg" href="#">Productos</a>
-                      </li>
-                      <li class="col p-0 m-1">
-                          <a class="link_navegacion boton_comun p-1 rounded-3 shadow-lg" href="./resto.html">Resto</a>
-                      </li>
-                      <li class="col p-0 m-1">
-                          <a class="link_navegacion boton_comun p-1 rounded-3 shadow-lg" href="./nosotros.html">Nosotros</a>
-                      </li>
-                      <li class="col p-0 m-1">
-                          <a class="link_navegacion boton_comun p-1 rounded-3 shadow-lg" href="./contacto.html">Contacto</a>
-                      </li>
-                  </ul>
-              </nav>
-          </div>
-      </header>
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo" src="../assets/img/logo_temporal.png" alt="Logo de Hongos Z.">
+                </a>
+                <nav class="nav">
+                    <ul class="row list-unstyled d-flex justify-content-end align-items-end">
+                        <li class="col p-0 m-1">
+                            <a class="link_navegacion boton_comun p-1 rounded-3 shadow-lg" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="col p-0 m-1">
+                            <a class="link_navegacion boton_seleccionado p-1 rounded-3 shadow-lg" href="#">Productos</a>
+                        </li>
+                        <li class="col p-0 m-1">
+                            <a class="link_navegacion boton_comun p-1 rounded-3 shadow-lg" href="./resto.html">Resto</a>
+                        </li>
+                        <li class="col p-0 m-1">
+                            <a class="link_navegacion boton_comun p-1 rounded-3 shadow-lg" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="col p-0 m-1">
+                            <a class="link_navegacion boton_comun p-1 rounded-3 shadow-lg" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-        <!-- Inicio contenido principal de Productos. -->
+        <!-- Contenido principal de Productos. -->
         <main>
-            <!-- Título principal -->
-            <section>
-                <h1>Nuestros productos</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti quo voluptates magni asperiores sit, sequi dignissimos omnis commodi, ea quibusdam explicabo optio blanditiis officiis sunt inventore earum velit natus.</p>
+            <section class="py-3 text-center container">
+                <div class="row py-lg-4">
+                  <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">Nuestros productos</h1>
+                    <p class="lead text-muted">Descubre la magia de nuestros productos frescos, cultivados con pasión y dedicación. Sumérgete en un mundo de sabores y texturas únicos con nuestra selección de hongos frescos. Cada uno de ellos tiene, además, numerosos beneficios para tu salud. Haz que tus comidas sean una aventura culinaria sin igual!</p>
+                  </div>
+                </div>
             </section>
 
-            <!-- Sección de produtos: Hongos -->
-            <section>
-                <!-- Subtitulo de la sección -->
-                <h2>Hongos</h2>
-
-                <!-- Divisiones para mostrar "cards" de cada producto, al clickear sobre cada una de ellas: se abre un enlace al producto en mercado libre. -->
-
-                <a href="https://www.mercadolibre.com.ar/" target="_blank">
-                    <div>
-                    
-                        <img src="../assets/img/girgolas.jpeg" alt="Gírgolas deliciosas">
-                        <p>Gírgolas</p>
+            <div class="album">
+                <section class="py-3 py-sm-4">
+                    <h2 class="fw-light text-center pb-2">Hongos</h2>
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            <div class="col">
+                                <div class="card no_border shadow-sm">
+                                    <p class="lead text-center fw-light">Gírgolas</p>
+                                    <a href="https://www.mercadolibre.com.ar/" target="_blank">
+                                        <img class="bd-placeholder-img card-img-top img_productos" src="../assets/img/girgolas_producto.jpg" alt="Gírgolas deliciosas">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="card-text text-justify">Las gírgolas son una excelente fuente de proteínas vegetales y fibra, lo que las convierte en un alimento saludable para el corazón y el sistema digestivo. Contienen antioxidantes y compuestos antiinflamatorios que pueden ayudar a reducir el riesgo de enfermedades crónicas</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card no_border shadow-sm">
+                                    <p class="lead text-center fw-light">Shiitakes</p>
+                                    <a href="https://www.mercadolibre.com.ar/" target="_blank">
+                                        <img class="bd-placeholder-img card-img-top img_productos" src="../assets/img/shitake.jpg" alt="Hongos Shiitakes deliciosos">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="card-text text-justify">Los shiitakes son un tipo de hongo altamente nutritivo y saludable, conocido por sus propiedades inmunomoduladoras, antioxidantes y antiinflamatorias. Además, su consumo regular puede contribuir a mejorar la salud cardiovascular, debido a su contenido significativo de proteínas y fibra.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card no_border shadow-sm">
+                                    <p class="lead text-center fw-light">Melena de León</p>
+                                    <a href="https://www.mercadolibre.com.ar/" target="_blank">
+                                        <img class="bd-placeholder-img card-img-top img_productos" src="../assets/img/melena_de_leon.webp" alt="Hongo Melena de León">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="card-text text-justify">La melena de león es un hongo medicinal altamente valorado por sus propiedades terapéuticas, incluyendo su capacidad para mejorar la salud cognitiva y el sistema inmunológico, así como para reducir la inflamación y el estrés.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </a>
-                <a href="https://www.mercadolibre.com.ar/" target="_blank">
-                    <div>
-                        <img src="../assets/img/shitake.jpg" alt="Hongos Shitakes deliciosos">
-                        <p>Shitakes</p>
-                    </div>
-                </a>
+                </section>
 
-                <a href="https://www.mercadolibre.com.ar/" target="_blank">
-                    <div>
-                        <img src="../assets/img/melena_de_leon.webp" alt="Hongo Melena de León">
-                        <p>Melena de León</p>
+                <section class="py-3 py-sm-4">
+                    <h2 class="fw-light text-center pb-2">Kits de cultivo</h2>
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            <div class="col">
+                                <div class="card no_border shadow-sm">
+                                    <p class="lead text-center fw-light">Kit de cultivo de Gírgolas</p>
+                                    <a href="https://www.mercadolibre.com.ar/" target="_blank">
+                                        <img class="bd-placeholder-img card-img-top img_productos" src="../assets/img/kit_girgolas.webp" alt="Kit de cultivo de Gírgolas">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="card-text text-justify">Este kit de cultivo de girgolas es la manera más fácil de cultivar tus propios hongos en casa. Incluye todo lo necesario para comenzar, desde las instrucciones hasta la bolsa de micelio de alta calidad. Disfruta de una cosecha de deliciosas y saludables girgolas frescas en la comodidad de tu hogar con este kit de cultivo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card no_border shadow-sm">
+                                    <p class="lead text-center fw-light">Kit de cultivo de Shiitakes</p>
+                                    <a href="https://www.mercadolibre.com.ar/" target="_blank">
+                                        <img class="bd-placeholder-img card-img-top img_productos" src="../assets/img/kit_shitake.webp" alt="Kit de cultivo de Shiitakes">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="card-text text-justify">Si te gusta cocinar con shiitakes frescos, este kit de cultivo es ideal para ti. Con él, podrás cultivar tus propios hongos en casa de manera fácil y conveniente. El kit incluye todo lo necesario para comenzar. Los shiitakes son ricos en nutrientes y tienen propiedades medicinales, lo que los convierte en una excelente adición a cualquier dieta saludable. Disfruta de una cosecha fresca y sabrosa cuando quieras.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card no_border shadow-sm">
+                                    <p class="lead text-center fw-light">Kit de cultivo de Melena de León</p>
+                                    <a href="https://www.mercadolibre.com.ar/" target="_blank">
+                                        <img class="bd-placeholder-img card-img-top img_productos" src="../assets/img/kit_melena.webp" alt="Kit de cultivo de Melena de León">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="card-text text-justify">Descubre los beneficios para la salud y nuevos sabores en tu cocina con este kit de cultivo de melena de león. Con todo lo necesario incluido, podrás cultivar tus propias hongos ricos en proteínas y antioxidantes. Añade un toque fresco y nutritivo a tus comidas con este kit fácil y conveniente.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </a>
-            </section>
-
-            <!-- Sección de Kits de Cultivo-->
-            <section>
-                <!-- Subtitulo de la sección -->
-                <h2>Kits de cultivo</h2>
-
-                <!-- Divisiones para mostrar "cards" de cada producto, al clickear sobre cada una de ellas: se abre un enlace al producto en mercado libre. -->
-
-                <a href="https://www.mercadolibre.com.ar/" target="_blank">
-                    <div>
-                        <img src="../assets/img/kit_girgolas.webp" alt="Kit de cultivo de Gírgolas">
-                        <p>Kit de cultivo de Gírgolas</p>
-                    </div>
-                </a>
-                <a href="https://www.mercadolibre.com.ar/" target="_blank">
-                    <div>
-                        <img src="../assets/img/kit_shitake.webp" alt="Kit de cultivo de Shitakes">
-                        <p>Kit de cultivo de Shitakes</p>
-                    </div>
-                </a>
-                <a href="https://www.mercadolibre.com.ar/" target="_blank">
-                    <div>
-                        <img src="../assets/img/kit_melena.webp" alt="Kit de cultivo de Melena de León">
-                        <p>Kit de cultivo de Melena de León</p>
-                    </div>
-                </a>
-            </section>
+                </section>
+            </div>
         </main>
-        <!-- Fin contenido principal de Productos. -->
 
         <!-- Sección al pie de página. -->
         <footer class="container-fluid color_principal">
