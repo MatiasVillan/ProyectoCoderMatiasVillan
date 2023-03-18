@@ -5,44 +5,42 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Hongos Z - Contacto </title>
-        <!-- Favicon temporal -->
+        <!-- Favicon -->
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-        <!-- Linkeo de hoja de estilo -->
+        <!-- Hojas de estilo -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
+        <script src="https://kit.fontawesome.com/157117e04a.js" crossorigin="anonymous"></script>
     </head>
-
     <body>
-        <header class="header_sticky">
-            <!-- Sección de cabecera con navegación. -->
-            <div>
-                <!-- Imagen del logo con hipervínculo al inicio. -->
-                <a href="../index.html">
-                    <img class="logo" src="../assets/img/logo_temporal.png" alt="Logo de Hongos Z.">
-                </a>
-            </div>                
-            <div> 
-                <nav>
-                    <!-- Lista desordenada de enlaces. -->
-                    <ul class="lista_navegacion_header">
-                        <li class="lista_item_navegacion boton_comun">
-                            <a class="link_navegacion" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="lista_item_navegacion boton_comun">
-                            <a class="link_navegacion" href="./productos.html">Productos</a>
-                        </li>
-                        <li class="lista_item_navegacion boton_comun">
-                            <a class="link_navegacion" href="./resto.html">Resto</a>
-                        </li>
-                        <li class="lista_item_navegacion boton_comun">
-                            <a class="link_navegacion" href="./nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="lista_item_navegacion boton_seleccionado">
-                            <a class="link_navegacion" href="#">Contacto</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+
+        <!-- Sección encabezado de página y navegación -->
+         <header class="container-fluid sticky-top mb-3 color_principal">
+            <div class="d-flex justify-content-between">
+              <a class="navbar-brand" href="../index.html">
+                  <img class="logo" src="../assets/img/logo_temporal.png" alt="Logo de Hongos Z.">
+              </a>
+              <nav class="nav">
+                  <ul class="row list-unstyled d-flex justify-content-end align-items-end">
+                      <li class="col p-0 m-1">
+                          <a class="link_navegacion boton_comun p-1 rounded-3 shadow-lg" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="col p-0 m-1">
+                          <a class="link_navegacion boton_comun p-1 rounded-3 shadow-lg" href="./productos.html">Productos</a>
+                      </li>
+                      <li class="col p-0 m-1">
+                          <a class="link_navegacion boton_comun p-1 rounded-3 shadow-lg" href="./resto.html">Resto</a>
+                      </li>
+                      <li class="col p-0 m-1">
+                          <a class="link_navegacion boton_comun p-1 rounded-3 shadow-lg" href="./nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="col p-0 m-1">
+                          <a class="link_navegacion boton_seleccionado p-1 rounded-3 shadow-lg" href="#">Contacto</a>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
+      </header>
 
         <!-- Inicio contenido principal de Contacto -->
 
@@ -106,18 +104,25 @@
         
         <!-- Fin contenido principal de Contacto -->
 
-        <!-- Contenido al pie. -->
-        <footer class="footer">
-            <!-- Enlaces absolutos a Redes sociales que se abren en una pestaña nueva.-->
-            <div>
-                <p class="texto_footer">Todos los derechos reservados.</p>
+        <!-- Sección al pie de página. -->
+        <footer class="container-fluid color_principal">
+            <div class="row mt-3 pt-3">
+                <div class="col-5 d-flex justify-content-end">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="text-center black_icon fa-2x fa-shake fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <a href="https://es-la.facebook.com/" target="_blank"><i class="text-center black_icon fa-2x fa-shake fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="col-5 d-flex justify-content-start">
+                    <a href="https://www.reddit.com/" target="_blank"><i class="text-center black_icon fa-2x fa-shake fa-brands fa-reddit"></i></a>
+                </div>
             </div>
-            <div class="texto_footer">
-                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-                <a href="https://es-la.facebook.com/" target="_blank">Facebook</a>
-                <a href="https://www.reddit.com/" target="_blank">Reddit</a>
+            <div class="row text-center p-3">
+                <p class="">© 2023 Hongos Z. Todos los derechos reservados.</p>
             </div>
-        </footer>        
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>
 
