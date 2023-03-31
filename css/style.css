@@ -1,5 +1,3 @@
-@charset "UTF-8";
-/* Fuente y reset: */
 @font-face {
   font-family: "Source Sans Pro";
   src: url("../assets/fonts/SourceSansPro-Regular.ttf");
@@ -11,7 +9,6 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* Estilados para el header: */
 .color_principal {
   background-color: rgb(212, 212, 210);
 }
@@ -49,7 +46,6 @@
   font-weight: bold;
 }
 
-/* Estilados para el Index */
 .imagen_tarjeta {
   width: 100%;
   height: 300px;
@@ -57,12 +53,10 @@
   margin-bottom: 10px;
 }
 
-/* Estilados para el footer. */
 .black_icon {
   color: black;
 }
 
-/* Estilados para la página productos */
 .no_border {
   border: none;
 }

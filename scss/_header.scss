@@ -1,0 +1,38 @@
+// Estilados para el header
+
+.color_principal{
+    background-color: $color-fondo;
+}
+
+.logo{
+    height: 100px;
+}
+
+.link_navegacion{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+.boton_seleccionado{
+    background-color: rgb(234, 145, 94);
+    font-weight: bold;
+}
+
+.boton_seleccionado:hover{
+    background-color: rgb(226, 210, 105);
+    color: black;
+    font-weight: bold;
+}
+
+.boton_comun{
+    background-color: rgb(133, 180, 100);
+}
+
+.boton_comun:hover{
+    background-color: rgb(226, 210, 105);
+    color: black;
+    font-weight: bold;
+}
