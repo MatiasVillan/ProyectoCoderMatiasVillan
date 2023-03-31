@@ -1,0 +1,79 @@
+// sass --watch scss:css
+/* Fuente y reset: */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url("../assets/fonts/SourceSansPro-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;    
+}
+
+/* Estilados para el header: */
+
+.color_principal{
+    background-color: rgb(212, 212, 210);
+}
+
+.logo{
+    height: 100px;
+}
+
+.link_navegacion{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+.boton_seleccionado{
+    background-color: rgb(234, 145, 94);
+    font-weight: bold;
+}
+
+.boton_seleccionado:hover{
+    background-color: rgb(226, 210, 105);
+    color: black;
+    font-weight: bold;
+}
+
+.boton_comun{
+    background-color: rgb(133, 180, 100);
+}
+
+.boton_comun:hover{
+    background-color: rgb(226, 210, 105);
+    color: black;
+    font-weight: bold;
+}
+
+/* Estilados para el Index */
+
+.imagen_tarjeta{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Estilados para el footer. */
+
+.black_icon{
+    color: black;
+}
+
+/* Estilados para la página productos */
+
+.no_border{
+    border: none;
+}
+
+.img_productos {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
