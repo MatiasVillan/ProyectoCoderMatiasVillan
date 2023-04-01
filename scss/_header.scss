@@ -2,37 +2,23 @@
 
 .color_principal{
     background-color: $color-fondo;
-}
-
-.logo{
-    height: 100px;
-}
-
-.link_navegacion{
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: black;
-    margin: 5px;
-    text-align: center;
-}
-
-.boton_seleccionado{
-    background-color: $color-seleccionado;
-    font-weight: bold;
-}
-
-.boton_seleccionado:hover{
-    background-color: $color-hover;
-    color: black;
-    font-weight: bold;
-}
-
-.boton_comun{
-    background-color: $color-boton-normal;
-}
-
-.boton_comun:hover{
-    background-color: $color-hover;
-    color: black;
-    font-weight: bold;
+    .logo{
+        height: 100px;
+    }
+    .link_navegacion{
+        @include estilo-link( $size-texto-link, $margen-link );
+    }
+    .boton_seleccionado{
+        background-color: $color-seleccionado;
+        font-weight: bold;
+        &:hover{
+            background-color: $color-hover;
+            color: black;
+            font-weight: bold;
+        }
+    }    
+    .boton_comun{
+        @extend .boton_seleccionado;
+        background-color: $color-normal;
+    }
 }

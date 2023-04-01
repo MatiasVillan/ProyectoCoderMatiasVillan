@@ -1,5 +1,5 @@
 // Estilados para el footer
 
 .black_icon{
-    color: black;
+    color: map-get($map-color, icon);
 }

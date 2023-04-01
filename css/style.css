@@ -20,38 +20,27 @@
 .color_principal {
   background-color: rgb(212, 212, 210);
 }
-
-.logo {
+.color_principal .logo {
   height: 100px;
 }
-
-.link_navegacion {
+.color_principal .link_navegacion {
   text-decoration: none;
-  font-size: 1.5rem;
   color: black;
-  margin: 5px;
   text-align: center;
+  font-size: 1.5rem;
+  margin: 5px;
 }
-
-.boton_seleccionado {
+.color_principal .boton_seleccionado, .color_principal .boton_comun {
   background-color: rgb(234, 145, 94);
   font-weight: bold;
 }
-
-.boton_seleccionado:hover {
+.color_principal .boton_seleccionado:hover, .color_principal .boton_comun:hover {
   background-color: rgb(226, 210, 105);
   color: black;
   font-weight: bold;
 }
-
-.boton_comun {
+.color_principal .boton_comun {
   background-color: rgb(133, 180, 100);
-}
-
-.boton_comun:hover {
-  background-color: rgb(226, 210, 105);
-  color: black;
-  font-weight: bold;
 }
 
 .imagen_tarjeta {
@@ -75,12 +64,11 @@
   object-fit: cover;
 }
 
-.video_wrapper {
+.video {
   position: relative;
   padding-bottom: 56.25%;
 }
-
-.frame {
+.video .video__frame {
   position: absolute;
   top: 0;
   left: 0;

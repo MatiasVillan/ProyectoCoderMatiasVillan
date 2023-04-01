@@ -1,9 +1,9 @@
 // utilidades
 
 .boton-ok{
-    background-color: $color-boton-ok;
+    background-color: map-get($map-color, boton-ok);
 }
 
 .boton-del{
-    background-color: $color-boton-del;
+    background-color: map-get($map-color, boton-del);
 }

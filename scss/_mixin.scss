@@ -1,0 +1,9 @@
+// mixines
+
+@mixin estilo-link($size-fuente, $margen) {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: $size-fuente;
+    margin: $margen;
+}
