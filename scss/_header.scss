@@ -17,22 +17,22 @@
 }
 
 .boton_seleccionado{
-    background-color: rgb(234, 145, 94);
+    background-color: $color-seleccionado;
     font-weight: bold;
 }
 
 .boton_seleccionado:hover{
-    background-color: rgb(226, 210, 105);
+    background-color: $color-hover;
     color: black;
     font-weight: bold;
 }
 
 .boton_comun{
-    background-color: rgb(133, 180, 100);
+    background-color: $color-boton-normal;
 }
 
 .boton_comun:hover{
-    background-color: rgb(226, 210, 105);
+    background-color: $color-hover;
     color: black;
     font-weight: bold;
 }
