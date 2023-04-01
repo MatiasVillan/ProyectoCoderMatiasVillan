@@ -44,30 +44,54 @@
 
         <!-- Inicio contenido principal de Nosotros. -->
 
-        <main>
-            <section>
+
                 <!-- Titulo principal. -->
-                <h1>Nosotros</h1>
-                <section>
+   
                     <!-- Sección con el video institucional. -->
-                    <h2>Nuestra empresa</h2>                    
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/417Qbwn9yso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </section>
-                <section>
+      
                     <!-- Sección con una imágen de los miembros del equipo. -->
-                    <h2>Nuestro equipo</h2>
-                    <img src="../assets/img/fundadores.avif" alt="Equipo de Hongos Z.">
-                </section>
-                <section>
+
                     <!-- Sección con un breve texto inspiracional. -->
-                    <h2>Nuestra filosofía</h2>
-                    <p>En nuestra empresa, creemos en la producción de hongos de manera sustentable y responsable, respetando el medio ambiente y las comunidades locales. Nos esforzamos por cultivar nuestros hongos con los más altos estándares de calidad, utilizando técnicas innovadoras y amigables con el medio ambiente.</p>
-                    <p>Nuestra filosofía se basa en la responsabilidad social y ambiental, la transparencia y el compromiso con nuestros clientes y socios. Nos esforzamos por educar y difundir información sobre los beneficios de nuestros productos y cómo pueden ser incorporados en una dieta saludable.</p>
-                    <p>Nuestra pasión por los hongos y el medio ambiente nos impulsa a seguir mejorando y desarrollando nuevas formas de producir alimentos sostenibles y nutritivos. Esperamos inspirar a otros a unirse a nuestro movimiento y juntos, hacer del mundo un lugar mejor.</p>                    
-                </section>
-            </section>
-            
-        </main>
+                    
+        <main>
+            <div class="container d-flex flex-column justify-content-center align-items-center">
+              <div class="row mb-3 mt-3 py-lg-4">
+                <div class="col-md-12">
+                  <!-- Title -->
+                  <h1 class="text-center">Nosotros</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-lg-6 col-md-12 order-2 order-md-1 ml-2"> <!-- Si la pantalla es de tablet prioriza el video, si es un celular, el texto.-->
+                  <!-- Main content -->
+                  <div class="row h-50 mt-3">
+                    <div class="col-md-12">
+                      <!-- Top section of left column -->
+                      <h2>Nuestra empresa</h2>
+                      <div class="embed-responsive embed-responsive-16by9 video_wrapper">
+                        <iframe class="embed-responsive-item frame" max-width="500" max-height="300" src="https://www.youtube.com/embed/417Qbwn9yso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row h-50 mb-3 mt-1">
+                    <div class="col-sm-12 col-md-12">
+                      <!-- Bottom section of left column -->
+                      <h2>Nuestro equipo</h2>
+                      <img class="img-fluid" src="../assets/img/fundadores.avif" alt="Equipo de Hongos Z." max-width="500" max-height="300">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 order-1 order-md-2 d-flex flex-column align-items-left mb-3 mt-3">
+                  <!-- Sidebar content -->
+                  <h2 class="mb-3">Nuestra filosofía</h2>
+                  <p class="lead">En nuestra empresa, creemos en la producción de hongos de manera sustentable y responsable, respetando el medio ambiente y las comunidades locales. Nos esforzamos por cultivar nuestros hongos con los más altos estándares de calidad, utilizando técnicas innovadoras y amigables con el medio ambiente.</p>
+                  <p class="lead">Nuestra filosofía se basa en la responsabilidad social y ambiental, la transparencia y el compromiso con nuestros clientes y socios. Nos esforzamos por educar y difundir información sobre los beneficios de nuestros productos y cómo pueden ser incorporados en una dieta saludable.</p>
+                  <p class="lead">Nuestra pasión por los hongos y el medio ambiente nos impulsa a seguir mejorando y desarrollando nuevas formas de producir alimentos sostenibles y nutritivos. Esperamos inspirar a otros a unirse a nuestro movimiento y juntos, hacer del mundo un lugar mejor.</p>  
+                </div>
+              </div>
+            </div>
+          </main>
+        
 
         <!-- Sección al pie de página. -->
         <footer class="container-fluid color_principal mt-auto">
