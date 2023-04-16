@@ -84,5 +84,18 @@
     font-size: 1.2rem;
   }
 }
+.main-section {
+  padding: 50px 0;
+  background-color: rgba(234, 108, 94, 0.669);
+}
+.main-section img {
+  margin-bottom: 30px;
+}
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+// Estilados para la página 404.
+
+.main-section {
+    padding: 50px 0;
+    background-color: $color-error;
+    img {
+    margin-bottom: 30px;
+  }
+}
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: bold;
+  }
