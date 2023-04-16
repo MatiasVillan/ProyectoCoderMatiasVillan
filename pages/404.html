@@ -51,7 +51,11 @@
             <section class="col-12 col-md-8 col-lg-6 text-center">
                 <h1 class="display-4">Error 404</h1>
                 <h2>Página no encontrada</p>
-                <img src="../assets/img/error404.png" alt="Centered Image with Text" class="img-fluid d-block mx-auto rounded">
+                <img src="../assets/img/error404.png" 
+                    srcset="../assets/img/error404_S.png 500w, 
+                    ../assets/img/error404_M.png 1000w, 
+                    ../assets/img/error404_L.png 1400w" 
+                    sizes="(max-width: 600px) 480px, (max-width: 800px) 720px, 1000px" alt="Caricatura de un honguito triste por no poder acceder a la página." class="img-fluid d-block mx-auto"> <!-- Imágen PNG responsive. -->
                 <p class="lead">Lo sentimos, la página que estás buscando no se encuentra disponible. Puede que el enlace esté roto o que la página se haya movido a otro lugar. Te recomendamos que navegues a través del menú para encontrar lo que estás buscando. Si el problema persiste, por favor <a class="link-unstyled" href="./contacto.html"> contactanos</a> para que podamos ayudarte. Muchas gracias por tu comprensión.</p>
             </section>
         </div>
