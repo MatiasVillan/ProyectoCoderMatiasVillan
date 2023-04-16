@@ -48,6 +48,10 @@
   height: 300px;
   object-fit: cover;
   margin-bottom: 10px;
+  transition: transform 0.6s;
+}
+.imagen_tarjeta:hover {
+  transform: scale(1.04);
 }
 
 .black_icon {
