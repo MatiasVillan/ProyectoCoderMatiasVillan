@@ -84,11 +84,11 @@
     font-size: 1.2rem;
   }
 }
-.main-section {
+.seccion-principal-error {
   padding: 50px 0;
   background-color: rgba(234, 108, 94, 0.669);
 }
-.main-section img {
+.seccion-principal-error img {
   margin-bottom: 30px;
 }
 
